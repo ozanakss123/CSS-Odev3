@@ -213,6 +213,37 @@
     height: 50%;
   }
 
+  .span .voicetext{
+    font-family: Arial, Helvetica, sans-serif;
+    visibility: hidden;
+    width: 100px;
+    margin-bottom: -60px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    text-align: center;
+    padding: 5px 3px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .span .voicetext::after{
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(50, 50, 50) transparent;
+  }
+
+  .span:hover .voicetext{
+    visibility: visible;
+  }
+
   .pic a img{
     border-radius: 50%;
   }

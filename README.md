@@ -1,4 +1,4 @@
-# CSS-Odev3
+# Google UI Clone
 
 Inspired by Google's 2019 Website.
 https://web.archive.org/web/20191130234759/https://www.google.com/
